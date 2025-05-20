@@ -1,6 +1,8 @@
-from utils.github_api import GitHubAPI
-import os
 import json
+import os
+
+from utils.github_api import GitHubAPI
+
 
 def fetch_updates(repos):
     api = GitHubAPI()

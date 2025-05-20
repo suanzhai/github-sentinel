@@ -1,6 +1,6 @@
-schedule: daily
+schedule:
+  type: interval
+  minutes: 1
 notifier:
   type: slack
   webhook_url: "https://hooks.slack.com/services/XXX"
-github:
-  token: "your_personal_access_token"

@@ -1,4 +1,5 @@
-from core import scheduler
+# main.py
+from cli import app
 
 if __name__ == "__main__":
-    scheduler.run()
+    app()  # 启动 CLI 工具

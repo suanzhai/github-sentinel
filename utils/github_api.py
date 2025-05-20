@@ -1,11 +1,11 @@
 import requests
-import yaml
+
+import config
+
 
 class GitHubAPI:
     def __init__(self):
-        with open("config/config.yaml", "r") as f:
-            config = yaml.safe_load(f)
-        self.token = config["github"]["token"]
+        self.token = config.get_config()["github_token"]
         self.headers = {
             "Authorization": f"token {self.token}",
             "Accept": "application/vnd.github.v3+json"
