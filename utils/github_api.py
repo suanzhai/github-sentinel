@@ -1,6 +1,6 @@
 import requests
 
-import config
+from utils import config
 
 
 class GitHubAPI:

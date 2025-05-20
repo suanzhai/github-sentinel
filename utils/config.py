@@ -4,7 +4,7 @@ import yaml
 
 
 def get_config():
-    with open("config.yaml", "r") as f:
+    with open("config/config.yaml", "r") as f:
         config = yaml.safe_load(f)
 
     # 从环境变量读取 token
