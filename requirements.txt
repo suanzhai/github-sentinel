@@ -3,3 +3,4 @@ PyYAML~=6.0.2
 schedule~=1.2.2
 
 typer~=0.15.4
+python-dotenv~=1.1.0

@@ -1,7 +1,9 @@
 import os
+from dotenv import load_dotenv
 
 import yaml
 
+load_dotenv()
 
 def get_config():
     with open("config/config.yaml", "r") as f:
